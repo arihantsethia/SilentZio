@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/plus"
+        android:title="Add Filters"/>
+    <item
+        android:id="@+id/remove"
+        android:icon="@drawable/minus"
+        android:title="Remove Filters"/>
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/about"
+        android:title="Help"/>
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/contact"
+        android:title="About"/>
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:title="Exit"/>
+
+</menu>

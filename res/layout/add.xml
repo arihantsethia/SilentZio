@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/llCAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/bAdd"
+            android:hint="@string/Keyword" />
+
+        <Button
+            android:id="@+id/bAdd"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/Add" />
+
+        <TextView
+            android:id="@+id/tvAdd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etAdd"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/already"
+            android:textSize="17dp"
+            android:textColor="#D4D4D4" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/svAdd"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/llCAdd"
+        android:layout_marginTop="10dp" 
+         android:layout_marginLeft="15dp">
+    </ScrollView>
+
+</RelativeLayout>
